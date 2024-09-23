@@ -6,10 +6,12 @@
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "noImplicitAny": false,
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "types": ["@babel/standalone"],
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
